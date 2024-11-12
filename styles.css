@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: url('https://wallpapercave.com/wp/wp4517636.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header h1 {
+  font-size: 24px;
+  color: #444;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f76c6c;
+}
+
+.fashion-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.fashion-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.topic-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.topic-card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #f76c6c;
+}
+.photo-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.photo-gallery img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.1);
+}
